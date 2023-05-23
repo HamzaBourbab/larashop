@@ -21,7 +21,7 @@ use App\Http\Controllers\ProduitController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.dashboard');
 });
 
 Route::get('/dashboard', function () {
